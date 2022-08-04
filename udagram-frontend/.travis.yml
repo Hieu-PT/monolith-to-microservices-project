@@ -3,4 +3,4 @@
 - docker tag udagram-frontend hieupt/udagram-frontend:v1
 
 - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker push sudkul/udagram-frontend:v1
+- docker push hieupt26/udagram-frontend:v1
