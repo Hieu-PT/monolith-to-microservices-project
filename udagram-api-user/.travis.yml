@@ -1,6 +1,0 @@
-- docker build -t udagram-api-user ./udagram-api-user
-
-- docker tag udagram-api-user hieupt/udagram-api-user:v1
-
-- echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-- docker push hieupt26/udagram-api-user:v1
