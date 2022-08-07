@@ -3,10 +3,10 @@ kind: ConfigMap
 data:
   AWS_BUCKET: eks-hieupt-dev
   AWS_PROFILE: default
-  AWS_REGION: us-east-1
+  AWS_REGION: ap-southeast-1
   JWT_SECRET: hieupt26
   POSTGRES_DB: udagram
-  POSTGRES_HOST: udagram.c4rsijfxtcyy.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: udagram.cruxyxyhqssx.ap-southeast-1.rds.amazonaws.com
   URL: http://localhost:8100  
 metadata:
   name: env-config
